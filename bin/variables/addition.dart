@@ -4,6 +4,9 @@ void addition() {
       b = 250;
 
   print('sum = ${a+b}');
+  print('sub = ${a-b}');
+print('multiple= ${a*b}');
+
 
 }
 
