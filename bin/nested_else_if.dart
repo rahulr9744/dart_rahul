@@ -17,5 +17,13 @@ void main(){
 
   // nested if
 
-  
+  if(otp == 123){
+    print("otp varified welcome user");
+
+  }else if (otp == 123){
+    print('otp is verified, welcome user');
   }
+  }
+
+
+  

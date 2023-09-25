@@ -12,8 +12,8 @@ void main(){
     }else if(size == 'XL'){
       print('shirt size is XL');
 
-    }else if (size == "S"){
-      print('shirt size is S');
+    }else if (size == "L"){
+      print('shirt size is L');
 
     }else{
       print('size is not available');
