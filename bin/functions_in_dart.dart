@@ -48,27 +48,27 @@
 
 /// lamda function  - function that contains only one statement
 
-void main(){
-  func5();
-  func6(10, 54);
-  func7();
-  func8(9);
-}
+// void main(){
+//   func5();
+//   func6(10, 54);
+//   func7();
+//   func8(9);
+// }
 
 
-/// lambda function without return type and parameter
-void func5()=>print('hello');
+// /// lambda function without return type and parameter
+// void func5()=>print('hello');
 
 
-/// lambda function without return type and with parameter
-void func6(int a, int b)=>print('sum=${a+b}');
+// /// lambda function without return type and with parameter
+// void func6(int a, int b)=>print('sum=${a+b}');
 
 
-/// lambda function with return type and without parameter
-void func7()=> 10;
+// /// lambda function with return type and without parameter
+// void func7()=> 10;
 
 
-/// lamba function with return type and with parameter
-void func8(int x)=> x+7; 
+// /// lamba function with return type and with parameter
+// void func8(int x)=> x+7; 
 
 
