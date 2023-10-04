@@ -28,7 +28,7 @@ print("default constructor");
     print('age =$age');
   
     if(cgpa == null){
-      print("no data");
+      print("cgpa = no data");
     
     }else{
       print('cgpa = $cgpa');
@@ -43,6 +43,6 @@ void main(){
   A obj1 = A();
   A obj2 =A.name1();
   A obj3 =A.name2(10, 100);
-  A obj4 =A.name3();
-  A abj5 =A.name4("rahul", email: 'rahul@gmail.com');
+  A obj4 =A.name3(name: 'rahul',age: 20,year: 1999);
+  A obj5 =A.name4("rahul", email: 'rahul@gmail.com',age: 12);
 }
