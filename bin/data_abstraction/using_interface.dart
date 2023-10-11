@@ -10,7 +10,7 @@ class A1{
   }
 }
 
-class Child extends A1{ }
+class Child extends A1{ } // here A1 behave as a normal parent class - single inheritance
 class Child2 implements A1{
   @override
   int a = 100;

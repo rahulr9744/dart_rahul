@@ -1,12 +1,13 @@
-// // used when the instance variable and function arguments have same name
+// //this :- used when the instance variable and function arguments have same name
 
 // class Demo{
 //   // instance variable
 //   String? s;
 //   int? a;
+//   static int x = 100;
 
-//   // Demo(String s, int a){
-//   //   this.s
+//   // Demo(String s, int a){ // s and a are formal parameters
+//   //   this.s   // by assigning like this value of s and a can be accessed outside the constructor
 //   //   this.a
 //   // }
 
@@ -23,4 +24,7 @@
 // void main(){
 //   Demo obj = Demo("hello", 2022);
 //   obj.show();
+
+// Demo.x = 1000;
+  
 // }
