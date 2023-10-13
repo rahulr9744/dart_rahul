@@ -1,17 +1,17 @@
-class Bank{
-  String bname = 'canara';
-}
+// class Bank{
+//   String bname = 'canara';
+// }
 
-class Branch extends Bank{
-  String brname = 'kakkanad';
-}
+// class Branch extends Bank{
+//   String brname = 'kakkanad';
+// }
 
-class Accounttype extends Branch{
-  String acname = 'savings';
+// class Accounttype extends Branch{
+//   String acname = 'savings';
 
-}
+// }
 
-void main(){
-  Accounttype obj = Accounttype();
-  print('bank is ${obj.bname} ${obj.brname} ${obj.acname}');
-}
+// void main(){
+//   Accounttype obj = Accounttype();
+//   print('bank is ${obj.bname} ${obj.brname} ${obj.acname}');
+// }
