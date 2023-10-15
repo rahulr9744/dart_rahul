@@ -9,19 +9,19 @@ class MyException implements Exception{
   }
 
 }
-// void checkage(int age){
-//   if(age<18){
-// throw Exception('invalid age');
-//   }else{
-//     print('eligible to vote');
-//   }
-// }
+void checkage(int age){
+   if(age<18){
+ throw Exception('invalid age');
+   }else{
+     print('eligible to vote');
+   }
+ }
 
 
 void main(){
-  // try{
-  //   checkage(10);
+  try{
+    checkage(10);
   }catch(e){
-  //   print('My exception occured $e');
-  // }
+    print('My exception occured $e');
+  }
   }
