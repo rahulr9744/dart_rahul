@@ -38,3 +38,21 @@
 // }
 // print('Thank You');
 // }
+
+
+void main(){
+  print("hlo");
+  var num = 10~/0;
+  print(num);
+  print('thank yu');
+
+  print('hlo');
+  try{
+    var num = 10~/0;
+    print(num);
+  }catch(e){
+    print("exception occured $e");
+
+  }
+}
+
